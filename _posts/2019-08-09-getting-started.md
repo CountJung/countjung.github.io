@@ -16,11 +16,11 @@ pin: true
 $ git clone https://github.com/USERNAME/USERNAME.github.io.git -b master --single-branch
 ```
 
-### Setting up the local envrionment
+### Setting up the local environment
 
 If you would like to run or build the project on your local machine, please follow the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll` and `Bundler`. 
 
-Before running or building for the first time, please complete the installation of the Jekyll plugins. Go to the root directory of project and run:
+Before running or building for the first time, please complete the installation of the Jekyll plug-ins. Go to the root directory of project and run:
 
 ```terminal
 $ bundle install
@@ -129,3 +129,4 @@ $ docker run -it --rm \
 ```
 
 Unless you specified the output path, the generated site files will be placed in folder `_site` of the project's root directory. Now you should upload those files to your web server.
+
